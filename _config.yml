@@ -1,1 +1,15 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: "Vikash's blog."
+email: jainism@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Hi - This is my blog.
+baseurl: "/jainudyog" # the subpath of your site, e.g. /blog/
+url: "http://jainudyog.com" # the base hostname & protocol for your site
+twitter_username: jainvikashraj
+github_username:  jainvikashraj
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+#pygments: true
